@@ -49,7 +49,7 @@ body{
 
 #hero1 {
     width: 100vw;
-    height: 140vh;
+    height: 100vh;
     background-image: url(../images/features.jpg);
     background-color: #cccccc;
     background-position: center;
@@ -89,7 +89,9 @@ body{
 .carousel-text1 {
     color: white;
 }
-
+.features-text1 {
+    color:orange;
+}
 .center-text {
     position: absolute;
     left: 50%;
