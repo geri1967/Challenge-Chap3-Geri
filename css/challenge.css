@@ -1,0 +1,109 @@
+body{
+    margin: 0px;
+}
+
+#hero {
+    background-image: url(../images/main-bg.jpg);
+    background-color: #cccccc;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*#hero1{
+    url(../image/scroll down.jpg);
+    background-position: bottom;
+}
+*/
+#button {
+    background-color: rgba(226, 108, 11, 0.938);
+    width: 100%;
+    text-decoration: none;
+    color: #ecf0f1;
+    width: 100px;
+    padding: 5px 10px;
+    margin:295px;
+    margin-left:590px;
+
+  }
+
+#games {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    background-image:  url(../images/the-games-bg.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#game-title {
+    width: 30%;
+}
+
+
+#hero1 {
+    width: 100vw;
+    height: 140vh;
+    background-image: url(../images/features.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#carousel-game {
+    width: 60%;
+}
+#carousel-game {
+    height: 130px;
+}
+
+#hero-text {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: DelaGothicOne-Regular;
+}
+
+#hero-text1 {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+#hero-text2 {
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    margin-top: 290px;
+    margin-left: 15px;
+}
+.carousel-text1 {
+    color: white;
+}
+
+.center-text {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.carousel-text
+{top:100px;left: 20px;}

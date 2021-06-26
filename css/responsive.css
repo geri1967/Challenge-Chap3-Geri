@@ -1,0 +1,6 @@
+/* 0 - 600px */
+@media only screen and (max-width: 600px) {
+  #hero-text {
+    font-size: 30px !important;
+  }
+}
