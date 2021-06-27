@@ -13,58 +13,6 @@ body{
     position: relative;
 }
 
-/*#hero1{
-    url(../image/scroll down.jpg);
-    background-position: bottom;
-}
-*/
-#button {
-    background-color: rgba(226, 108, 11, 0.938);
-    width: 100%;
-    text-decoration: none;
-    color: #ecf0f1;
-    width: 100px;
-    padding: 5px 10px;
-    margin:295px;
-    margin-left:590px;
-
-  }
-
-#games {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
-    height: 100vh;
-    background-image:  url(../images/the-games-bg.jpg);
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-#game-title {
-    width: 30%;
-}
-
-
-#hero1 {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/features.jpg);
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-#carousel-game {
-    width: 60%;
-}
-#carousel-game {
-    height: 130px;
-}
-
 #hero-text {
     color: white;
     font-size: 30px;
@@ -86,6 +34,100 @@ body{
     margin-top: 290px;
     margin-left: 15px;
 }
+#hero-tanda{
+    position: absolute;
+    width: 20.25px;
+    height: 8.17px;
+    left: 708.32px;
+    top: 898.53px;
+    border: 8px solid #FFFFFF;
+}
+#button {
+    background-color: rgba(226, 108, 11, 0.938);
+   /* width: 100%;*/
+    text-decoration: none;
+    color: #ecf0f1;
+    width: 100px;
+    padding: 5px 10px;
+    margin:295px;
+    margin-left:590px;
+    position:relative;
+
+  }
+#games {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    background-image:  url(../images/the-games-bg.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#game-title {
+    width: 30%;
+}
+
+
+#features {
+    width: 100vw;
+    height: 130vh;
+    background-image: url(../images/features.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#garis {
+    position: absolute;
+    width: 130px;
+    height: 0px;
+    left: 710px;
+    top: 335px;
+    border:0.5px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+#lingkaran1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 770px;
+    top: 260px;
+    background: #FFFFFF;
+    border: 0.5px  #FFFFFF;
+    transform: rotate(90deg);
+}
+
+#lingkaran2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 770px;
+    top: 400px;
+    border: 1.30637px solid #FFFFFF;
+    
+}
+
+#lingkaran3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 770px;
+    top: 457px;
+    border: 1.30637px solid #FFFFFF;
+    
+}
+
+#carousel-game {
+    width: 60%;
+}
+
+
 .carousel-text1 {
     color: white;
 }
@@ -109,3 +151,25 @@ body{
 
 .carousel-text
 {top:100px;left: 20px;}
+
+#requirement {
+    background-image: url(../images/requirements.png);
+    background-color: #cccccc;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#top-score {
+    background-image: url(../images/top-score-bg.png);
+    background-color: rgba(12, 8, 8, 0.959);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
