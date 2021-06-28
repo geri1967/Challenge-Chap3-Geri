@@ -135,7 +135,6 @@ body{
     top: 335px;
     border:0.5px solid #FFFFFF;
     transform: rotate(90deg);
-    
 }
 
 #lingkaran1{
@@ -146,6 +145,7 @@ body{
     top: 260px;
     background: #FFFFFF;
     border: 0.5px  #FFFFFF;
+    border-radius:50%;
     transform: rotate(90deg);
 }
 
@@ -156,7 +156,7 @@ body{
     left: 770px;
     top: 405px;
     border: 1.30637px solid #FFFFFF;
-    
+    border-radius:50%;
 }
 
 #lingkaran3{
@@ -166,7 +166,7 @@ body{
     left: 770px;
     top: 460px;
     border: 1.30637px solid #FFFFFF;
-    
+    border-radius:50%;
 }
 
 #carousel-game {
